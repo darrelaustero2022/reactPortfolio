@@ -1,0 +1,168 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+h1, h5 {
+    display: flex;
+    justify-content: center;
+}
+
+/*=================== CTA ===============*/
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    
+}
+
+/*================== HeaderSocials =============*/
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    bottom: 7rem;
+}
+
+.header__socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+    
+}
+
+/* =============== header picture ============== */
+.me {
+   background: linear-gradient(var(--color-primary), transparent); 
+   width: 22rem;
+   height: 22.5rem;
+   position: absolute;
+   left: calc(50% - 11rem);
+   margin-top: 4rem;
+   border-radius: 12rem 12rem 0 0;
+   overflow: hidden;
+   padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+/*=============== Scrolldown ==============*/
+.scroll__down {
+    position: absolute;
+    right: 9rem;
+    bottom: 12rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/*================= Media Queries  big tablet ====*/
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+        
+    }
+    
+    .scroll__down{
+        right: 2rem;
+       
+    }
+   
+    .me {
+        
+        height: 16rem;
+        width: 18rem;
+        left: calc(50% - 9rem);
+    }
+}
+
+/*================= Media Queries big tablet ====*/
+@media screen and (max-width: 912px) {
+    header {
+        height: 100vh;
+        
+    }
+    .scroll__down{
+        right: 2rem;
+        bottom: 50vh;
+    }
+    .header__socials {
+        bottom: 45vh;
+    }
+   
+}
+
+/*================= Media Queries  smaller tablet ====*/
+@media screen and (max-width: 768px) {
+    header {
+        height: 100vh;
+    }
+    .scroll__down{
+        right: 2rem;
+        bottom: 40vh;
+    }
+    .header__socials {
+        bottom: 35vh;
+    }
+   
+}
+
+/*================= Media Queries  Big phones ====*/
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+    .me {
+        bottom: 10vh
+    }
+}
+
+/*================= Media Queries  Small phones ====*/
+@media screen and (max-width: 375px) {
+    header {
+        height: 100vh;
+    }
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+    .me {
+        width: 15rem;
+        height: 20rem;
+        left: calc(50% - 7.5rem);
+    }
+    .me {
+        bottom: 1vh
+    }
+}
+
+/*================= Media Queries  Small phones ====*/
+@media screen and (max-width: 280px) {
+    header {
+        height: 100vh;
+    }
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+    .me {
+        width: 15rem;
+        height: 15rem;
+        left: calc(50% - 7.5rem);
+    }
+    .me {
+        bottom: 1vh
+    }
+}
+
