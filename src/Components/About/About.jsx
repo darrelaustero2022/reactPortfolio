@@ -39,7 +39,7 @@ const About = () => {
             I have created wordpress websites from scratch which includes Ux/Ui designing, setting up hosting and domain, and up to website testing and deployment. I build websites using the React JS framework as well. My passion is to help market your products and services, and to provide your website visitors an amazing experience. 
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#portfolio" className='btn btn-primary'>View projects</a>
         </div>
       </div>
 
