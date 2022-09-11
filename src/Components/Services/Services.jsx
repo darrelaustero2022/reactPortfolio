@@ -14,27 +14,28 @@ const Services = () => {
             <h3>Ux/Ui Design</h3>
 
           </div>
-          /*============================= Ux/Ui Design==================*/
+          
           <ul className="service__list">
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, laboriosam.</p>
+              <p>Provide modern design to your website according to your brand</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, laboriosam.</p>
+              <p>SEO - your website will be optimized to appear on search engines</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, laboriosam.</p>
+              <p>Mobile responsive Designs that will look amazing on any devices</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, laboriosam.</p>
+              <p>User friendly Designs that your visitors will surely love</p>
             </li>
+            
           </ul>
         </article>
-        /*=============web development=================*/
+      
         <article className="service">
           <div className="service__head">
             <h3>Web Development</h3>
@@ -44,23 +45,23 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, laboriosam.</p>
+              <p>Setup hosting and domain name of your website includes email</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, laboriosam.</p>
+              <p>Create E commerce shop and setup payment portals in your site</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, laboriosam.</p>
+              <p>Provide other functionalities such as events and bookings</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, laboriosam.</p>
+              <p>Integrate marketing functions to website to convert more sales</p>
             </li>
           </ul>
         </article>
-        /*==================== Social Media =====================*/
+       
         <article className="service">
           <div className="service__head">
             <h3>Social Media</h3>
@@ -70,19 +71,19 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, laboriosam.</p>
+              <p>Graphics Design - for social media content creation and branding</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, laboriosam.</p>
+              <p>Research - increase followers in social media with regular posting</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, laboriosam.</p>
+              <p>Facebook Ads Design that will help in increasing your sales and followers</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, laboriosam.</p>
+              <p>Email Marketing Design that will help promote products and services</p>
             </li>
           </ul>
         </article>
