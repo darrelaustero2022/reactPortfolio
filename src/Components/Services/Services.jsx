@@ -64,26 +64,26 @@ const Services = () => {
        
         <article className="service">
           <div className="service__head">
-            <h3>Social Media</h3>
+            <h3>Website Maintenance</h3>
             
           </div>
 
           <ul className="service__list">
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Graphics Design - for social media content creation and branding</p>
+              <p>Modify Design - changes to make website look better</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Research - increase following by posting regurlarly</p>
+              <p>Upgrade - add features in the website e.g. booking</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Facebook Ads Design that will help boost your sales</p>
+              <p>Debug Errors- fix bugs or error that you are encountering</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Email Marketing Design that will help promote products</p>
+              <p>Optimized Website- modify code structure for faster loading of website</p>
             </li>
           </ul>
         </article>
