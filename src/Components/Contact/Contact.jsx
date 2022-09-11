@@ -5,7 +5,7 @@ const contact = () => {
   return (
     <section id='contact'>
       <h5>My Contact Info</h5>
-      <h2>Let's Talk</h2>
+      <h2>Get in touch</h2>
     </section>
   )
 }
