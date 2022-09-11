@@ -65,10 +65,7 @@ h1, h5 {
 
 /*================= Media Queries  big tablet ====*/
 @media screen and (max-width: 1024px) {
-    header {
-        height: 100vh;
-        
-    }
+   
     
     .scroll__down{
         right: 2rem;
@@ -85,10 +82,7 @@ h1, h5 {
 
 /*================= Media Queries big tablet ====*/
 @media screen and (max-width: 912px) {
-    header {
-        height: 100vh;
-        
-    }
+   
     .scroll__down{
         right: 2rem;
         bottom: 50vh;
@@ -101,9 +95,7 @@ h1, h5 {
 
 /*================= Media Queries  smaller tablet ====*/
 @media screen and (max-width: 768px) {
-    header {
-        height: 100vh;
-    }
+   
     .scroll__down{
         right: 2rem;
         bottom: 40vh;
@@ -116,9 +108,7 @@ h1, h5 {
 
 /*================= Media Queries  Big phones ====*/
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
+   
     .header__socials,
     .scroll__down {
         display: none;
@@ -130,9 +120,7 @@ h1, h5 {
 
 /*================= Media Queries  Small phones ====*/
 @media screen and (max-width: 375px) {
-    header {
-        height: 100vh;
-    }
+   
     .header__socials,
     .scroll__down {
         display: none;
@@ -149,9 +137,7 @@ h1, h5 {
 
 /*================= Media Queries  Small phones ====*/
 @media screen and (max-width: 280px) {
-    header {
-        height: 100vh;
-    }
+    
     .header__socials,
     .scroll__down {
         display: none;
