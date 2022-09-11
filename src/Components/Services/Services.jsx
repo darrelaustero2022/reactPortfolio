@@ -49,7 +49,7 @@ const Services = () => {
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Create E commerce shop and setup payment portals in your site</p>
+              <p>Create E commerce shop and setup payment portals</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
@@ -75,15 +75,15 @@ const Services = () => {
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Research - increase followers in social media with regular posting</p>
+              <p>Research - increase following by posting regurlarly</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Facebook Ads Design that will help in increasing your sales and followers</p>
+              <p>Facebook Ads Design that will help in increasing your sales</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Email Marketing Design that will help promote products and services</p>
+              <p>Email Marketing Design that will help promote products</p>
             </li>
           </ul>
         </article>
