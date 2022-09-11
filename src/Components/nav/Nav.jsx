@@ -5,10 +5,10 @@ import {HiUser} from 'react-icons/hi'
 import {BiMedal} from 'react-icons/bi'
 import {GiGearHammer} from 'react-icons/gi'
 import {HiMail} from 'react-icons/hi'
-import { useState } from 'react'
+import {useState} from 'react'
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState('#home')
   return (
     <nav>
       <a href="#home" onClick={() => setActiveNav('#home')} className={activeNav === '#home' ? 'active' : ''}><FaHome/></a>
