@@ -79,7 +79,7 @@ const Services = () => {
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Facebook Ads Design that will help in increasing your sales</p>
+              <p>Facebook Ads Design that will help boost your sales</p>
             </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
