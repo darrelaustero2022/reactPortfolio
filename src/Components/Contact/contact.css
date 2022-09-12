@@ -53,10 +53,91 @@
 }
 
 @media screen and (max-width: 600px) {
+    .container.contact__container {
+        height: 900px;
+    }
+    
     .contact__options {
         flex-direction: column;
-        height: 55vh;
+        height: 100vh;
+        margin-bottom: 15rem;
+    }
+    .contact__option {
+        border: none;
+        width: 99%;
         
+        
+    }
+    .send__message {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+          
+    }
+    .contact__option-icon{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 414px) {
+    .container.contact__container {
+        height: 1200px;
+    }
+    
+    .contact__options {
+        flex-direction: column;
+        height: 100vh;
+        margin-bottom: 1rem;
+    }
+    .contact__option {
+        border: none;
+        width: 99%;
+        
+        
+    }
+    .send__message {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+          
+    }
+    .contact__option-icon{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container.contact__container {
+        height: 700px;
+    }
+    
+    .contact__options {
+        flex-direction: column;
+        height: 100vh;
+        margin-bottom: 1rem;
+    }
+    .contact__option {
+        border: none;
+        width: 99%;
+        
+        
+    }
+    .send__message {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+          
+    }
+    .contact__option-icon{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .container.contact__container {
+        height: 700px;
+    }
+    
+    .contact__options {
+        flex-direction: column;
+        height: 100vh;
+        margin-bottom: 1rem;
     }
     .contact__option {
         border: none;
