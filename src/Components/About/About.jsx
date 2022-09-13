@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../Assets/about me.jpg'
+import ME from '../../Assets/aboutdax.png'
 import {FaMedal} from 'react-icons/fa'
 import {AiOutlineUsergroupAdd} from 'react-icons/ai'
 import {CgWebsite} from 'react-icons/cg'
