@@ -1,9 +1,29 @@
 header{
-    height: 100vh;
-    padding-top: 7rem;
+    height: 115vh;
+    padding-top: 4rem;
     overflow: hidden;
+    
 }
-
+.me {
+background: linear-gradient(var(--color-primary), transparent); 
+   width: 42rem;
+   height: 25.5rem;
+   position: absolute;
+   left: calc(50% - 21rem);
+   margin-top: 3rem;
+   border-radius: 12rem 12rem 0 0;
+   overflow: hidden;
+   padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+.me img{
+    border-radius: 1rem;
+    height: 280px;
+    width: 450px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
 .header__container {
     text-align: center;
     height: 100%;
@@ -41,19 +61,7 @@ h1, h5 {
     
 }
 
-/* =============== header picture ============== */
-.me {
-   background: linear-gradient(var(--color-primary), transparent); 
-   width: 22rem;
-   height: 25.5rem;
-   position: absolute;
-   left: calc(50% - 11rem);
-   margin-top: 4rem;
-   border-radius: 12rem 12rem 0 0;
-   overflow: hidden;
-   padding: 5rem 1.5rem 1.5rem 1.5rem;
-   
-}
+
 
 /*=============== Scrolldown ==============*/
 .scroll__down {
@@ -73,12 +81,14 @@ h1, h5 {
         right: 2rem;
        
     }
-   
+    .me img {
+        width: 280px;
+    }
     .me {
         
-        height: 16rem;
-        width: 18rem;
-        left: calc(50% - 9rem);
+        height: 25rem;
+        width: 28rem;
+        left: calc(50% - 14rem);
     }
 }
 
@@ -87,10 +97,10 @@ h1, h5 {
    
     .scroll__down{
         right: 2rem;
-        bottom: 50vh;
+        bottom: 59vh;
     }
     .header__socials {
-        bottom: 45vh;
+        bottom: 55vh;
     }
     header {
         height: 68vh;
@@ -119,13 +129,51 @@ h1, h5 {
         display: none;
     }
     .me {
-        bottom: 10vh
+        bottom: 20vh
     }
     header {
-        height: 100vh;
+        height: 90vh;
+    }
+    .me img{
+        border-radius: 1rem;
+        height: 180px;
+        width: 180px; 
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
     }
    
 }
+@media screen and (max-width: 540px) {
+    
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+    .me {
+        width: 15rem;
+        height: 15rem;
+        left: calc(50% - 7.5rem);
+    }
+    .me {
+        bottom: 11rem;
+    }
+    .me img{
+        border-radius: 1rem;
+        height: 180px;
+        width: 180px; 
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+    }
+    header {
+        height: 90vh;
+    }
+}
+
+
 
 /*================= Media Queries  Small phones ====*/
 @media screen and (max-width: 375px) {
@@ -136,11 +184,19 @@ h1, h5 {
     }
     .me {
         width: 15rem;
-        height: 20rem;
+        height: 15rem;
         left: calc(50% - 7.5rem);
+        top: 17rem;
     }
-    .me {
-        bottom: 1vh
+    
+    .me img{
+        border-radius: 1rem;
+        height: 180px;
+        width: 180px; 
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
     }
 }
 
@@ -158,6 +214,15 @@ h1, h5 {
     }
     .me {
         bottom: 1vh
+    }
+    .me img{
+        border-radius: 1rem;
+        height: 180px;
+        width: 180px; 
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
     }
 }
 
