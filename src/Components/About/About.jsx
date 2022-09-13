@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../Assets/aboutdax.png'
+import ME from '../../Assets/aboutpic.jpg'
 import {FaMedal} from 'react-icons/fa'
 import {AiOutlineUsergroupAdd} from 'react-icons/ai'
 import {CgWebsite} from 'react-icons/cg'
@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="Darrel" />
+            <img src={ME} alt="Coding Website" />
           </div>
         </div>
         <div className="about__content">
